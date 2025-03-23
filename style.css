@@ -1,0 +1,168 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #1c1c1c;
+    color: white;
+    border-bottom: 2px solid #444;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+nav input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+
+main {
+    display: flex;
+    width: 90%;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+.sidebar {
+    width: 25%;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .btn, .sidebar button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #00bfff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar .btn:hover, .sidebar button:hover {
+    background: linear-gradient(#5f7983,  #8fdbfc) ;
+
+}
+
+/* Botões centralizados */
+.sidebar .btn,
+.sidebar button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteúdo */
+.content {
+    width: 75%;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    background: #00bfff;
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.band-image {
+    width: 2000px;
+    max-width: 900px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-box1 {
+    background: #222;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.info-box2 {
+    background: #222;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: #ffffff;
+
+}
+.info-box1 h3 {
+ 
+    color: #00bfff;
+}
+.info-box2 h3 {
+ 
+    color: #00bfff;
+}
+
+.sidebarimage {
+    width: 1200px; 
+    position: absolute;
+    bottom: 10;
+    left: 0;
+}
+
+
+/* Botão Play/Pause */
+button {
+    display: block;
+    background: linear-gradient(45deg, #ffffff, #aaaaaa, #000000);
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    margin: 20px auto;
+    font-style: arial;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #000000, #aaaaaa, #ffffff);
+    color: white;
+}
